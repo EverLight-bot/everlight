@@ -8,4 +8,4 @@
 -------------------------------------------
 
 Если Вы будете использовать бота для своего сервера, то это можно делать. Но есть условие не распространять бота на botlist'ах типа top.gg и т.д. <br>
-###### **&copy; 2021 Copyright by [Artem Larchenko](https://artem-009.github.io/).**
+###### **&copy; 2021 Copyright by <a href="https://artem-009.github.io/" target="blank">Artem Larchenko</a>.**
