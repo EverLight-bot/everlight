@@ -1,2 +1,1 @@
-# everlight
-EverLight - Discord бот!
+# EverLight - Discord бот!
