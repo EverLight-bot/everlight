@@ -1,5 +1,15 @@
 require('dotenv').config();
 
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.json('Бот запущен..');
+});
+app.get("/", (request, response) => {
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
@@ -16,6 +26,8 @@ fs.readdir("./events/", (err, files) => {
 });
 
 client.commands = new Enmap();
+client.cooldowns = new Discord.Collection();
+
 
 fs.readdir("./commands/", (err, files) => {
   if (err) return console.error(err);
