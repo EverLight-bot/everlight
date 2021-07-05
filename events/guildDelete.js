@@ -8,7 +8,7 @@ module.exports = async (client, message) => {
     const embed = new MessageEmbed()
     .setTitle(`Бота кикнули с сервера!`)
     .setColor('RED')
-    .setDescription('...или он вышел')
+    .setDescription('или он вышел. ...')
     // .addField('Название сервера', guild.name())
     // .addField('Владелец сервера', guild.owner())
     // .setThumbnail(guild.iconURL())

@@ -1,5 +1,6 @@
 {
   "name": "everlight",
+  "version": "0.2",
   "description": "EverLight Discord bot",
   "main": "index.js",
   "scripts": {
@@ -9,17 +10,17 @@
   "author": "Artem Larchenko",
   "license": "ISC",
   "dependencies": {
+    "ascii-table": "^0.0.9",
     "discord-math": "^1.0.5",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.7.0",
-    "express": "^4.17.1",
     "fs": "0.0.1-security",
+    "luxon": "^1.27.0",
     "mongoose": "^5.10.0",
     "ms": "^2.1.2",
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.7",
-    "request": "^2.88.2",
     "weather-js": "^2.0.0"
   }
 }
