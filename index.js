@@ -1,5 +1,16 @@
 require('dotenv').config();
 
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+  res.json('бот запущен!');
+});
+app.get("/", (request, response) => {
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+
+
 const Discord = require("discord.js");
 const client = new Discord.Client({ ws: { properties: { $browser: "Discord Android" }} });
 const config = require("./config.json");
