@@ -8,6 +8,8 @@ module.exports = {
     usage: "@member рандомный_никнейм",
 
     run: async (client, message, args) => {
+        if(!message.member.hasPermission("MANAGE_NICKNAMES")) return message.reply("У вас нет права **MANAGE_NICKNAMES**");
+
         const member = message.mentions.members.first();
 
         if (!member) return message.reply("вы не указали пользователя которому нужно изменить никнейм!");
